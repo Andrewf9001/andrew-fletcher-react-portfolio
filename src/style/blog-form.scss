@@ -3,8 +3,27 @@
   grid-template-columns: 1fr;
   padding: 42px;
 
+  .dropzone .dz-preview.dz-image-preview {
+    background: transparent;
+  }
+
+  .dropzone .dz-preview .dz-remove {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    color: $warning;
+  }
+
   @include input-element();
   input {
     margin-bottom: 0px;
+  }
+
+  .image-uploaders {
+    @include base-grid();
+    grid-template-columns: 200px;
   }
 }

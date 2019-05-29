@@ -8,6 +8,20 @@
     margin-bottom: 0px;
   }
 
+  .dropzone .dz-preview.dz-image-preview {
+    background: transparent;
+  }
+
+  .dropzone .dz-preview .dz-remove {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    color: $warning;
+  }
+
   .image-uploaders {
     @include base-grid();
     grid-template-columns: 200px 200px 200px;
