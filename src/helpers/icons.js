@@ -5,9 +5,10 @@ import {
   faEdit,
   faSpinner,
   faCampground,
-  faEnvelopeOpenText,
-  faMobile,
-  faMapMarkedAlt
+  faPhone,
+  faEnvelope,
+  faMapMarkedAlt,
+  faLock
 } from "@fortawesome/free-solid-svg-icons";
 
 const Icons = () => {
@@ -17,9 +18,10 @@ const Icons = () => {
     faEdit,
     faSpinner,
     faCampground,
-    faEnvelopeOpenText,
-    faMobile,
-    faMapMarkedAlt
+    faPhone,
+    faEnvelope,
+    faMapMarkedAlt,
+    faLock
   );
 };
 
